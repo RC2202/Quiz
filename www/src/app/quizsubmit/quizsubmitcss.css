@@ -1,0 +1,28 @@
+.quizsubmit .bar-dark {
+    background-color: #403D52;
+    padding: 20px 0px;
+}
+.quizsubmit a.item{
+  background-color: #CCCCCC;
+  border: 3px solid #fff;
+  /*font-weight: bold;*/
+
+}
+.quizsubmit .list {
+    margin-top: 20px;
+}
+.quizsubmit a.item:first-child{
+  border-radius: 10px 10px 0px 0px;
+}
+.quizsubmit a.item:last-child{
+  border-radius: 0px 0px 10px 10px;
+}
+.quizsubmit a.item span{
+  color: black;
+  font-weight: normal;
+}
+.quizsubmit button.button.button-block {
+    background-color: #403D52;
+    color: #fff;
+    /*font-weight: bold;*/
+}

@@ -1,0 +1,16 @@
+/* home */
+@font-face {
+    font-family: 'EntezareZohoor2';
+    src: url('fonts/EntezareZohoor2.eot'), url('fonts/EntezareZohoor2.ttf') format('truetype'), url('fonts/EntezareZohoor2.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#newfont{
+    font-family:'EntezareZohoor2';
+}
+body{
+  box-sizing: border-box;
+}
+ .pane, .view{
+  background-color: #C83737 ;
+}

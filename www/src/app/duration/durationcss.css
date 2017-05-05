@@ -1,0 +1,29 @@
+.duration .bar-dark{
+  background-color: #403D52;
+  padding: 20px 0px;
+}
+
+.duration .card {
+  background-color: #EFC3C3;
+}
+.duration .item{
+  background-color: inherit;
+  border-width: 0px !important;
+}
+
+.heading, .button_set, .button_close{
+  background-color: #403D52 !important;
+}
+.duration .button{
+  background-color: #403D52;
+  color: #fff;
+}
+#ques{
+  background-color: #ffffff ;
+  text-align: center;
+  font-size: 18px;
+}
+.duration .item.item-text-wrap{
+  text-align: center;
+  font-weight: bold;
+}

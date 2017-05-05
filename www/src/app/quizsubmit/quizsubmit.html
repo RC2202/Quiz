@@ -1,0 +1,90 @@
+<ion-side-menus class = "quizsubmit">
+  <ion-side-menu-content>
+    <ion-header-bar class="bar-dark select">
+
+    <h1 class="title">Submit</h1>
+
+</ion-header-bar>
+<ion-content scroll="true">
+
+  <div class="row row-center">
+    <div class="col col-80  col-offset-10">
+      <div class="list">
+
+        <a class="item" href="#">
+          <!-- <i class="icon ion-email"></i> -->
+          Total questions
+          <span class = "item-note"> 50</span>
+        </a>
+
+        <a class="item" href="#">
+          <!-- <i class="icon ion-chatbubble-working"></i> -->
+          Answered
+          <span class = "item-note"> 45</span>
+        </a>
+
+        <a class="item" href="#">
+          <!-- <i class="icon ion-mic-a"></i> -->
+          Marked for review
+          <span class="item-note">
+            5
+          </span>
+        </a>
+        <a class="item" href="#">
+          <!-- <i class="icon ion-mic-a"></i> -->
+          Not answered
+          <span class="item-note">
+            0
+          </span>
+        </a>
+        <a class="item" href="#">
+          <!-- <i class="icon ion-mic-a"></i> -->
+          Time remaining
+          <span class="item-note">
+            20:00
+          </span>
+        </a>
+      </div>
+  </div>
+  <div class="col col-10"></div>
+</div>
+<div class="row row-center">
+  <div class="col ">
+    <!-- <div class="card">
+      <div class="item item-text-wrap options">
+        <ion-list >
+          <ion-radio ng-model="choice" ng-value="'A'">To repremand harshly</ion-radio>
+          <ion-radio ng-model="choice" ng-value="'B'">Choose B</ion-radio>
+          <ion-radio ng-model="choice" ng-value="'C'">Choose C</ion-radio>
+          <ion-radio ng-model="choice" ng-value="'D'">Choose D</ion-radio>
+        </ion-list>
+      </div>
+      <button class="button" ng-click="vm.back()" id ="help">
+        <i class="icon ion-help"></i>
+      </button>
+    </div> -->
+
+</div>
+</div>
+
+
+<div class="row row-center" ng-click="vm.submit()">
+  <div class="col col-80  col-offset-10">
+    <button class="button button-block">
+      Submit
+      </button>
+  </div>
+  <div class="col col-10"></div>
+</div>
+<div class="row row-center" ng-click="vm.back()">
+  <div class="col col-80  col-offset-10">
+    <button class="button button-block">
+      Back to quiz
+      </button>
+  </div>
+  <div class="col col-10"></div>
+</div>
+</ion-content>
+
+</ion-side-menu-content>
+</ion-side-menus>

@@ -1,0 +1,29 @@
+/*select*/
+.select .title{
+  text-align: center !important;
+}
+.select .bar-dark{
+  background-color: #403D52;
+  padding: 20px 0px;
+}
+/*.select .pane, .view{
+  background-color: #C83737 ;
+}*/
+.select .item-select{
+  background-color: #EFC3C3;
+  color: black;
+}
+.select .scroll-content{
+  top: 30%;
+}
+.select .list{
+  margin-bottom: 20px !important;
+}
+.select option{
+  background-color: #f1f1f1;
+}
+
+.select .button{
+  background-color: #403D52;
+  color: #fff;
+}

@@ -1,0 +1,21 @@
+.popup-container .popup{
+  color:white;
+  background-color:#C83737;
+  border-radius: 15px;
+}
+.popup-container .popup .popup-title{
+  color:white;
+}
+.popup-container .popup-buttons .button{
+  color:#fff;
+  background-color: #403D52;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.popup-container .popup-body{
+  background-color: #EFC3C3;
+}
+.popup-container .popup-body .button{
+  color:#403D52;
+  /*background-color: #403D52;*/
+}

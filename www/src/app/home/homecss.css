@@ -1,0 +1,18 @@
+.intr .button{
+  background-color: #800000;
+  color: #fff;
+}
+.intr .scroll-content{
+  top: 30%;
+}
+.intr span{
+  /*padding-left: 35px;*/
+  padding-bottom: 50px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+.intr #title{
+  margin-bottom: 50px;
+  text-align: center;
+}

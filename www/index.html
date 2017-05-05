@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link rel="manifest" href="manifest.json">
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="lib/ion-datetime-picker/release/ion-datetime-picker.min.css" rel="stylesheet">
+    <!-- <link href="lib/ionic-ion-drawer-master/ionic.contrib.drawer.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/range.css" rel="stylesheet">
+    <link href="css/popup.css" rel="stylesheet">
+    <link href="src/app/home/homecss.css" rel="stylesheet">
+    <link href="src/app/select/selectcss.css" rel="stylesheet">
+    <link href="src/app/duration/durationcss.css" rel="stylesheet">
+    <link href="src/app/quiz/quizcss.css" rel="stylesheet">
+    <link href="src/app/quizsubmit/quizsubmitcss.css" rel="stylesheet">
+    <link href="src/app/quizresult/quizresultcss.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script type="text/javascript" src="lib/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/ion-datetime-picker/release/ion-datetime-picker.min.js"></script>
+    <script src="lib/angular-chart.js/node_modules/chart.js/dist/Chart.min.js"></script>
+    <script src="lib/angular-chart.js/dist/angular-chart.min.js"></script>
+    <!-- <script src="lib/ionic-ion-drawer-master/ionic.contrib.drawer.js"></script> -->
+    <script src="lib/angular-timer/dist/angular-timer.min.js"></script>
+    <script src="lib/moment/min/moment.min.js"></script>
+    <script src="lib/moment/min/locales.min.js"></script>
+    <script src="lib/humanize-duration/humanize-duration.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="src/app/app.js"></script>
+
+    <!-- controllers js-->
+    <script src="src/app/home/homeCtrl.js"></script>
+    <script src="src/app/select/selectCtrl.js"></script>
+    <script src="src/app/duration/durationCtrl.js"></script>
+    <script src="src/app/quiz/quizCtrl.js"></script>
+    <script src="src/app/quizsubmit/quizsubmitCtrl.js"></script>
+    <script src="src/app/quizresult/quizresultCtrl.js"></script>
+
+    <!--service-->
+    <script src="src/services/mcq.js"></script>
+    <script src="src/services/generateQuiz.js"></script>
+    <script src="src/services/evaluateResult.js"></script>
+
+    <!--factories-->
+    <script src="src/factories/ques.js"></script>
+
+    <!--filter-->
+    <!--directives-->
+  </head>
+  <body ng-app="app">
+
+    <ui-view></ui-view>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "vocab" : [
+    {
+      "word":"frenzy",
+      "level": "Basic",
+      "deck": "2",
+      "meaning": "wild and uncontrolled activity",
+      "helpSentence": "The pool party turned frenzier by midnight"
+    },
+    {
+      "word":"tantrum",
+      "level": "Basic",
+      "deck": "2",
+      "meaning": "uncontrolled expression of childish anger",
+      "helpSentence": "had a tanturn when he found his little sister using his cell phone"
+    },
+    {
+      "word":"gaunt",
+      "level": "Basic",
+      "deck": "2",
+      "meaning": "gloomy",
+      "helpSentence": "He left the hospital looking tired and gaunt"
+    },
+    {
+      "word":"skeptical",
+      "level": "Basic",
+      "deck": "2",
+      "meaning": "having doubt about something",
+      "helpSentence": "She is highly skeptical of her research claim"
+    },
+    {
+      "word":"dognap",
+      "level": "Basic",
+      "deck": "2",
+      "meaning": "to steal especially to obtain a reward for its return (sell)",
+      "helpSentence": "Lassie had been dognapped by a shady businessman"
+    },
+    {
+      "word":"assert",
+      "level": "Common",
+      "deck": "1",
+      "meaning": "to state",
+      "helpSentence": "He asserted that he did not steal"
+    },
+    {
+      "word":"gulp",
+      "level": "Advanced",
+      "deck": "4",
+      "meaning": "to swallow",
+      "helpSentence": "The baby gulped the coin"
+    }
+  ]
+}

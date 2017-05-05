@@ -1,0 +1,72 @@
+<ion-side-menus class = "select">
+  <ion-side-menu-content>
+    <ion-header-bar class="bar-dark">
+      <!-- <button class="button button-icon" ng-click="toggleProjects()">
+      <i class="icon ion-navicon"></i>
+    </button> -->
+    <h1 class="title">Vocabulary Quiz</h1>
+    <!-- New Task button-->
+    <!-- <button class="button button-icon" ng-click="newTask()">
+    <i class="icon ion-compose"></i>
+  </button> -->
+</ion-header-bar>
+<ion-content scroll="false">
+  <div class="row row-center">
+    <div class="col col-80  col-offset-10">
+      <!-- <button class="button button-block">
+      Select Level
+    </button> -->
+    <div class="list">
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Set Level
+        </div>
+        <select name = "level" ng-model="vm.select.level" ng-change = vm.fetchDeck()>
+          <option ng-repeat ="level in vm.levels">{{level}}</option>
+
+        </select>
+      </label>
+
+    </div>
+  </div>
+  <div class="col col-10"></div>
+</div>
+<div class="row row-center">
+  <div class="col col-80  col-offset-10">
+    <!-- <button class="button button-block">
+    Select Deck
+  </button> -->
+  <div class="list">
+
+    <label class="item item-input item-select">
+      <div class="input-label">
+        Set Deck
+      </div>
+      <select name = "deck" ng-model="vm.select.deck">
+        <option ng-repeat="deck in vm.decks">{{deck}}</option>
+      </select>
+    </label>
+
+  </div>
+</div>
+<div class="col col-10"></div>
+</div>
+<div class="row row-center">
+  <div class="col col-30  col-offset-10" ng-click="vm.back()">
+    <button class="button button-block">
+      Back
+      </button>
+  </div>
+  <div class="col col-20"></div>
+  <div class="col col-30" ng-click = "vm.next()">
+    <button class="button button-block">
+      Next
+      </button>
+  </div>
+  <div class="col col-10"></div>
+</div>
+</ion-content>
+</ion-side-menu-content>
+
+</ion-side-menus>

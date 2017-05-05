@@ -1,0 +1,78 @@
+.quiz .bar-dark{
+  background-color: #403D52;
+  padding: 20px 0px;
+}
+.quiz .row:first-child .card .item.item-text-wrap {
+    background-color: #EFC3C3;
+    font-weight: bold;
+
+}
+.quiz .row:first-child .card{
+  border-radius: 15px;
+}
+.quiz .row .radio-content .item-content.disable-pointer-events, .quiz .options{
+  /*background-color: #E6E6E6 ;*/
+  font-weight: bold;
+}
+.quiz .row .card{
+  border: 4px solid #fff;
+  border-radius: 10px;
+  /*background-color: #E6E6E6;*/
+}
+#help{
+  float: right;
+  background-color: #E6E6E6 ;
+  border: 4px solid #fff;
+  border-radius: 10px;
+}
+.bar.bar-footer {
+    background-color: #403D52;
+    background-size: 0px;
+    color: #fff;
+}
+.quiz button.button.button-block{
+  font-weight:  bold;
+}
+.item-radio input:checked + .radio-content .item-content {
+    background: #F27474;
+}
+
+.quiz .parent{
+  color: red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.quiz .parent button{
+  padding: 15px;
+  border: 0px;
+  margin: 1px;
+}
+
+.markedForReview{
+  background-color:  #403D52;
+  color: #fff;
+}
+.unanswered{
+  background-color: #DE1E2D;
+  color: #fff;
+}
+.answered{
+  background-color: #3c723c;
+  color: #fff;
+}
+
+
+.quiz #naw{
+  color:#DE1E2D;
+}
+
+.quiz #mfr{
+  color:#403D52;
+}
+
+.quiz #aw{
+  color:#3c723c;
+}

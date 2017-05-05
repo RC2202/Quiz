@@ -1,0 +1,62 @@
+<ion-side-menus class = "quizresult">
+  <ion-side-menu-content>
+    <ion-header-bar class="bar-dark select">
+
+    <h1 class="title">Result</h1>
+
+</ion-header-bar>
+<ion-content scroll="true">
+
+<div class="row row-center">
+  <div class="col col-80  col-offset-10">
+    <div class="card">
+      <canvas id="pie" class="chart chart-pie"
+        chart-data="data" chart-labels="labels" chart-options="options" chart-colors="colors">
+      </canvas>
+    </div>
+</div>
+<div class="col col-10"></div>
+</div>
+
+<div class="row row-center">
+  <div class="col col-80  col-offset-10">
+    <div class="list">
+
+      <a class="item item-icon-left" >
+        <!-- <i class="icon ion-record" id="q"></i> -->
+        Total Questions
+        <span class = "item-note"> {{vm.totalQues}}</span>
+      </a>
+
+      <a class="item item-icon-left" >
+        <i class="icon ion-record" id="ar"></i>
+        Correct Answers
+        <span class = "item-note"> {{vm.correctAns}}</span>
+      </a>
+      <a class="item item-icon-left" >
+        <i class="icon ion-record" id="aw"></i>
+        Wrong Answers
+        <span class = "item-note"> {{vm.wrongAns}}</span>
+      </a>
+      <a class="item item-icon-left" >
+        <!-- <i class="icon ion-record" id="ti"></i> -->
+        Time Left
+        <span class = "item-note">{{vm.time}}</span>
+      </a>
+
+    </div>
+</div>
+</div>
+
+<div class="row row-center" ng-click="vm.back()">
+  <div class="col col-80  col-offset-10">
+    <button class="button button-block">
+      Back to quiz
+      </button>
+  </div>
+  <div class="col col-10"></div>
+</div>
+</ion-content>
+
+</ion-side-menu-content>
+</ion-side-menus>

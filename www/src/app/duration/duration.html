@@ -1,0 +1,73 @@
+<ion-side-menus class = "duration">
+  <ion-side-menu-content>
+    <ion-header-bar class="bar-dark select">
+
+    <h1 class="title">Vocabulary Quiz</h1>
+
+</ion-header-bar>
+<ion-content scroll="false">
+  <div class="row row-center">
+    <div class="col ">
+
+    <div class="card">
+      <div class="item item-divider">
+        <div class="list">
+          <label class="item item-input">
+            <span class="input-label">Number of questions</span>
+            <input type="number" id = "ques" ng-value='vm.selectNosQ'>
+          </label>
+        </div>
+      </div>
+      <div class="item item-text-wrap">
+        <div class="item range">
+          <h3>0</h3>
+          <input type="range"  ng-model = 'vm.selectNosQ' min="{{0}}"  max="{{vm.nosQ}}" step =1>
+          <h3>{{vm.nosQ}}</h3>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<div class="row row-center">
+  <div class="col col-80  col-offset-10">
+
+</div>
+<div class="col col-10"></div>
+</div>
+
+<div class="row row-center">
+  <div class="col ">
+
+    <div class="card">
+      <div class="item item-divider">
+        <button class="button button-block" ion-datetime-picker time title="'Set Duration'" button-ok="Set" minute-step = "10" ng-model = "vm.timeValue">
+          Set Duration
+        </button>
+      </div>
+      <div class="item item-text-wrap">
+        <p>HH:MM</p>
+        <span>{{vm.timeValue| date: "HH:mm"}}</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="row row-center">
+  <div class="col col-30  col-offset-10">
+    <button class="button button-block" ng-click="vm.back()">
+      Back
+    </button>
+  </div>
+  <div class="col col-20"></div>
+  <div class="col col-30">
+    <button class="button button-block" ng-click = "vm.begin()">
+      Begin
+    </button>
+  </div>
+  <div class="col col-10"></div>
+</div>
+</ion-content>
+</ion-side-menu-content>
+</ion-side-menus>
