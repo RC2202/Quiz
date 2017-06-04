@@ -26,5 +26,6 @@ function homeCtrl($scope, $state, $timeout, $log, ques, $http, mcq) {
   function viewStats(){
     //stats
     $log.debug('viewStats');
+    $state.go('chat');
   }
 };

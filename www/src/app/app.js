@@ -98,7 +98,14 @@ angular.module('app', ['app.services', 'app.filters', 'app.factories', 'app.dire
     templateUrl: "src/app/quizresult/quizresult.html",
     controller: "quizresultCtrl",
     controllerAs: "vm"
-  });
+  })
+    .state("chat",{
+    url: "/chat",
+    cache:false,
+    templateUrl: "src/app/chat/chat.html",
+    controller: "chatCtrl",
+    // controllerAs: "vm"
+  });;
 
   $urlRouterProvider.otherwise('/app');
   window.location.hash="#";

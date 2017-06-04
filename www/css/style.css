@@ -14,3 +14,6 @@ body{
  .pane, .view{
   background-color: #C83737 ;
 }
+.messaging-view {
+    background-color: #fff  !important;
+}
