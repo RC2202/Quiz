@@ -102,7 +102,13 @@ function chatCtrl($scope, $state, $log, $ionicScrollDelegate, $filter, $http) {
   */
   var  actions = {
       "setPizzaType": function(data){
-        $scope.context["pizza"] = data.data.entities.pizza[0].value; // maximum confidence
+        try{
+           $scope.context["pizza"] = data.data.entities.pizza[0].value; // maximum confidence
+           delete $scope.context['missingPizza'];
+        }catch(e){
+          $scope.context["missingPizza"] = true; // maximum confidence
+        }
+       
         // $scope.context["missingPizza"] = 0;
       },
       "setPizzaSize": function(data){
